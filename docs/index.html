@@ -1,18 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>HTML is Structure Only (After)_</title>
-  </head>
-  <body>
-    <h1 style="color: green; font-size: 60px; text-align: center;">HTML is Structure Only</h1>
-    <p style="margin: 0 100px 0 100px; font-size: 1.5em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae temporibus esse suscipit nisi ad.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, doloribus eos perspiciatis.</p>
-    <footer>
-      <hr>
-      <p style="text-align: center;" 
-         onclick="alert('EMAILING US IS USELESS');">
-         Tech Support: yeah.right@server-is-down.com
-      </p>
-    </footer>
-  </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Galaxy</title>
+    <style>
+        /********** Base styles **********/
+        * {
+            box-sizing: border-box;
+        }
+
+        .stype{
+            font-family: Arial, Helvetica, sans-serif;
+    
+        }
+
+        h1 {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        section {
+            border: 5px solid white;
+            width: 90%;
+            font-family: Helvetica;
+            color: white;
+            float: left;
+        }
+
+        .box {
+            border: 2px solid black;
+            height: 150px;
+            background-color: #8d8a8a;
+            overflow: scroll;
+        }
+
+        /* Simple Responsive Framework. */
+        .row {
+            width: 100%;
+        }
+
+        #section-title1 {
+            border: 1px solid black;
+            background-color: teal;
+            padding: 3px;
+            padding-left: 5px;
+            padding-right: 5px;
+            float:right;
+        }
+
+        #section-title2 {
+            border: 1px solid black;
+            background-color: peru;
+            padding: 3px;
+            padding-left: 5px;
+            padding-right: 5px;
+            float:right;
+        }
+
+        #section-title3 {
+            border: 1px solid black;
+            background-color: rgb(187, 107, 114);
+            padding: 3px;
+            padding-left: 5px;
+            padding-right: 5px;
+            float:right;
+        }
+
+        p {
+            margin: 10px;
+            margin-top: 30px;
+            clear: right;
+            
+        }
+
+        /********** Large devices only **********/
+        @media (min-width: 992px) {
+            .col-lg-4 {
+                width: 33.33%;
+            }
+        }
+
+        /********** Medium devices only **********/
+        @media (min-width: 768px) and (max-width: 991px) {
+            .col-md-4 {
+                width: 33.33%;
+            }
+            .col-md-6 {
+                width: 50%;
+            }
+            .col-md-12 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Galaxy</h1>
+
+    <div class="row">
+        <section class="col-lg-4 col-md-6">
+            <div class="box">
+                <div id = "section-title1"> Nebula </div>
+                <p class="style">
+                    A nebula is an interstellar cloud of dust, hydrogen, helium and other ionized gases. Originally, the term was used to describe any diffused astronomical object, including galaxies beyond the Milky Way. The Andromeda Galaxy, for instance, was once referred to as the Andromeda Nebula (and spiral galaxies in general as "spiral nebulae") before the true nature of galaxies was confirmed in the early 20th century by Vesto Slipher, Edwin Hubble and others.
+                </p>
+            </div>
+        </section>
+        <section class="col-lg-4 col-md-6">
+            <div class="box">
+                <div id = "section-title2"> Andromeda galaxy </div>
+                <p class="style">
+                    The Milky Way and Andromeda galaxies are expected to collide in around 4.5 billion years, merging to form a giant elliptical galaxy or a large lenticular galaxy With an apparent magnitude of 3.4, the Andromeda Galaxy is among the brightest of the Messier objects, making it visible to the naked eye from Earth on moonless nights, even when viewed from areas with moderate light pollution.
+                </p>
+            </div>
+        </section>
+        <section class="col-lg-4 col-md-12">
+            <div class="box">
+                <div id = "section-title3"> Mars </div>
+                <p class="style">
+                    Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the "Red Planet".The latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a reddish appearance distinctive among the astronomical bodies visible to the naked eye. Mars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth.
+                </p>
+            </div>
+        </section>
+    </div>
+
+</body>
+
 </html>
