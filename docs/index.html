@@ -1,131 +1,40 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <title>Galaxy</title>
-    <style>
-        /********** Base styles **********/
-        * {
-            box-sizing: border-box;
-        }
-
-        .style{
-            font-family: Arial, Helvetica, sans-serif;
-            overflow: scroll; 
-            padding-top:10px;     
-            padding-left:15px;
-            padding-right:15px;
-            padding-bottom: 15px;
-            clear: right;
-            height: 135px;
-            margin-top: 5px;
-        }
-
-        h1 {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        section {
-            border: 5px solid white;
-            width: 90%;
-            font-family: Helvetica;
-            color: white;
-            float: left;
-        }
-
-        .box {
-            border: 2px solid black;
-            height: 180px;
-            background-color: #8d8a8a;
-
-        }
-
-        /* Simple Responsive Framework. */
-        .row {
-            width: 100%;
-        }
-
-        #section-title1 {
-            border: 1px solid black;
-            background-color: teal;
-            padding: 3px;
-            padding-left: 5px;
-            padding-right: 5px;
-            float:right;
-        }
-
-        #section-title2 {
-            border: 1px solid black;
-            background-color: peru;
-            padding: 3px;
-            padding-left: 5px;
-            padding-right: 5px;
-            float:right;
-        }
-
-        #section-title3 {
-            border: 1px solid black;
-            background-color: rgb(187, 107, 114);
-            padding: 3px;
-            padding-left: 5px;
-            padding-right: 5px;
-            float:right;
-        }
-
-        /********** Large devices only **********/
-        @media (min-width: 992px) {
-            .col-lg-4 {
-                width: 33.33%;
-            }
-        }
-
-        /********** Medium devices only **********/
-        @media (min-width: 768px) and (max-width: 991px) {
-            .col-md-4 {
-                width: 33.33%;
-            }
-            .col-md-6 {
-                width: 50%;
-            }
-            .col-md-12 {
-                width: 100%;
-            }
-        }
-    </style>
-</head>
-
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-    <h1>Galaxy</h1>
 
-    <div class="row">
-        <section class="col-lg-4 col-md-6">
-            <div class="box">
-                <div id = "section-title1"> Nebula </div>
-                <p class="style">
-                    A nebula is an interstellar cloud of dust, hydrogen, helium and other ionized gases. Originally, the term was used to describe any diffused astronomical object, including galaxies beyond the Milky Way. The Andromeda Galaxy, for instance, was once referred to as the Andromeda Nebula (and spiral galaxies in general as "spiral nebulae") before the true nature of galaxies was confirmed in the early 20th century by Vesto Slipher, Edwin Hubble and others.
-                </p>
-            </div>
-        </section>
-        <section class="col-lg-4 col-md-6">
-            <div class="box">
-                <div id = "section-title2"> Andromeda galaxy </div>
-                <p class="style">
-                    The Milky Way and Andromeda galaxies are expected to collide in around 4.5 billion years, merging to form a giant elliptical galaxy or a large lenticular galaxy With an apparent magnitude of 3.4, the Andromeda Galaxy is among the brightest of the Messier objects, making it visible to the naked eye from Earth on moonless nights, even when viewed from areas with moderate light pollution.
-                </p>
-            </div>
-        </section>
-        <section class="col-lg-4 col-md-12">
-            <div class="box">
-                <div id = "section-title3"> Mars </div>
-                <p class="style">
-                    Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the "Red Planet".The latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a reddish appearance distinctive among the astronomical bodies visible to the naked eye. Mars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth.
-                </p>
-            </div>
-        </section>
+<header>
+  <nav id="header-nav" class="navbar navbar-default">
+<!--    class="navbar" produced by BOOTSTRAP-->
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="pull-left visible-md visible-lg">
+          <div id="logo-img" alt="Logo image"></div>
+        </a>
+
+        <div class="navbar-brand">
+          <a href="index.html"><h1>David Chu's China Bistro</h1></a>
+        <p>
+          <img src="images/star-k-logo.png" alt="Kosher certification">
+          <span>Kosher Certified</span>
+        </p>
+        </div>
+      </div>
     </div>
+  </nav>
+</header>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
