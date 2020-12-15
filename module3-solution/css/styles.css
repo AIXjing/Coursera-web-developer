@@ -1,0 +1,152 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: antiquewhite;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #9e8383;
+    border-radius: 0;
+    border: 0;
+    /*DO NOT set height here! Otherwise the dropdown nav will not "drop down"*/
+}
+
+
+.navbar-brand h1 { /* FOOD LLC */
+    font-family: 'Anton', sans-serif;
+    color: antiquewhite;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+button.navbar-toggle {
+    border: 2px solid antiquewhite;
+    margin-top: 12px;
+}
+
+
+.icon-bar {
+   border: 1px solid antiquewhite;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    font-family: 'PT Sans', sans-serif;
+    color: #b5aeae;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+/*END OF HEADER*/
+
+/*MENU SECTION*/
+.menu-title {
+    font-family: 'PT Sans', sans-serif;
+    color: #9e8383;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#chicken {
+    background-color: #9e8383;
+    border: 2px solid antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #cccccc;
+    margin-bottom: 10px;
+}
+
+#menu-content h3 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#Beef {
+    background-color: #72967c;
+    border: 2px solid antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #cccccc;
+    margin-bottom: 10px;
+}
+
+#Sushi {
+    background-color: #6e889c;
+    border: 2px solid antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #cccccc;
+}
+/*END OF MENU SECTION*/
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    #header-nav {
+        height: 60px;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #header-nav {
+        height: 60px;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    #header-nav {
+        height: 60px;
+    }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    /*Home page*/
+    #menu-tile, #specials-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+
+}
