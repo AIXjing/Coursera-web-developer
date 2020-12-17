@@ -57,7 +57,7 @@ button.navbar-toggle {
 /*END OF HEADER*/
 
 /*MENU SECTION*/
-.container{
+.container {
     width: 95%;
 }
 
@@ -72,38 +72,35 @@ button.navbar-toggle {
     margin-bottom: 10px;
 }
 
-#chicken {
-    background-color: #9e8383;
-    border: 2px solid antiquewhite;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px #cccccc;
-    margin-bottom: 10px;
-}
-
 #menu-content h3 {
     text-align: center;
     margin-top: 5px;
-}
-
-#Beef {
-    background-color: #72967c;
-    border: 2px solid antiquewhite;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px #cccccc;
     margin-bottom: 10px;
 }
 
-#Sushi {
-    background-color: #6e889c;
+.single-content {
     border: 2px solid antiquewhite;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #cccccc;
+    height: 900px;
+}
+
+.single-content p {
+    height: 800px;
+    overflow: scroll;
+}
+
+#chicken {
+    background-color: #9e8383;
+}
+
+#beef {
+    background-color: #72967c;
+}
+
+#sushi {
+    background-color: #6e889c;
 }
 /*END OF MENU SECTION*/
 
