@@ -82,12 +82,7 @@ button.navbar-toggle {
     margin-bottom: 10px;
 }
 
-#menu-content h3 {
-    text-align: center;
-    margin-top: 5px;
-}
-
-#Beef {
+#beef {
     background-color: #72967c;
     border: 2px solid antiquewhite;
     padding-top: 10px;
@@ -97,13 +92,18 @@ button.navbar-toggle {
     margin-bottom: 10px;
 }
 
-#Sushi {
+#sushi {
     background-color: #6e889c;
     border: 2px solid antiquewhite;
     padding-top: 10px;
     padding-bottom: 5px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #cccccc;
+}
+
+#menu-content h3 {
+    text-align: center;
+    margin-top: 5px;
 }
 /*END OF MENU SECTION*/
 
